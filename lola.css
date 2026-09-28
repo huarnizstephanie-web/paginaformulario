@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+}
+.menu {
+
+  display: none;
+
+  background: blueviolet;
+
+  position: absolute;
+
+  top: 60px;
+
+  width: 15%; }
+
+
+
+.menu a { color: aquamarine;
+
+   padding: 15px;
+
+   display: block;
+
+   text-decoration: none; }
+
+
+
+.menu a:hover{
+
+
+
+  background-color: aquamarine;
+
+}
+
+
+
+
+.hamburger{
+
+cursor:pointer ;
+
+padding: 15px;
+
+display: block;
+
+text-decoration: none;
+
+}
+a, button{
+
+text-decoration: none;
+
+color: rgb(0, 0, 0);
+
+font-size: 0.9em;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+
+
+}
+
+
+
+body{
+
+  background:rgb(189, 125, 170);
+
+
+
+}
+
+
+
+nav{
+
+  display:flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 30px 20%;
+
+
+
+}
+
+
+
+nav img{
+
+  width: 150px;
+
+}
+
+
+
+nav .enlaces a {
+
+position: relative;
+
+padding: 0 50px;
+
+
+
+}
+
+
+
+nav .enlaces a:hover{
+
+  color: rgb(171, 207, 243);
+
+}
+
+
+
+/*nav .enlaces a::before{
+
+  width: 40%;*/
+
+  
+
+
+
+  nav button{
+
+padding: 10px 25px;
+
+background-color: rgb(248, 3, 142);
+
+border: none;
+
+border-radius: 30px;
+
+cursor: pointer;
+
+
+
+  }
+
+
+
+  nav button:hover{
+
+    background: rgb(171, 207, 243);
+
+  }
+
+.hamburger{
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d9f4f7, #b8d3ee, #c9d0dc);
+}
+
+.formulario {
+    width: 100%;
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 5px 25px 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 100%;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 12px;
+    outline: none;
+}
+
+.fila input {
+    height: 27px;
+}
+
+input[type="email"] {
+    height: 27px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 43px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #5b91b8;
+}
+
+.privacidad {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 25px;
+}
+
+.privacidad input {
+    width: 11px;
+    height: 11px;
+}
+
+.privacidad label {
+    color: #5685a6;
+    font-size: 10px;
+}
+
+button {
+    width: 140px;
+    height: 34px;
+    border: none;
+    border-radius: 7px;
+    background-color: #42a1c1;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #328ba9;
+}
+.tipo-prenda {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.tipo-prenda h2,
+.proyecto h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.opciones-prenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+}
+
+.opciones-prenda label {
+    color: #5685a6;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opciones-prenda input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+}
+
+/* CAMPO OTROS */
+
+.opciones-prenda label:last-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opciones-prenda label:last-child input[type="text"] {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* DETALLA TU PROYECTO */
+
+.proyecto {
+    margin-bottom: 15px;
+}
+
+.proyecto textarea {
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 12px;
+    outline: none;
+    resize: vertical;
+}

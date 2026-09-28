@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="lola.css">
+</head>
+
+<body>
+   <h1>
+    <title>stylegeek</title>
+   </h1> 
+
+    <nav>
+    <button class="hamburger" id="hamburger">☰</button>
+     
+  <div class="menu" id="menu">
+    
+
+  <a href="polos.html">polos</a>
+
+  <a href="pantalones.html">pantalones</a>
+
+  <a href="zapatillas.html">zapatillas</a>
+
+  </div>
+
+<img src="Mangekyou_Sharingan_Sasuke.svg.webp" alt="logo">
+
+  <div>
+
+
+
+  <script>
+
+    document.getElementById("hamburger").onclick = function
+
+    () {
+
+      const menu = document.getElementById("menu");
+
+      menu.style.display = menu.style.display ===
+
+      "block" ? "none" : "block" ;
+
+    
+
+    }
+
+  </script>
+
+
+
+</div>
+
+<div class="enlaces">
+
+<a href="">inicio</a>
+
+<a href="">somos</a>
+
+<a href="">producto</a>
+
+<a href="contacto.html">contacto</a>
+
+
+
+
+<button>ingreso</button>
+</div>
+    </nav>
+    
+    <div class="formulario">
+
+        <h1>Contáctanos</h1>
+
+       <form action="proceso.php" method="post">
+
+    <div class="fila">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellidos" placeholder="Apellidos">
+    </div>
+
+    <div class="fila">
+        <input type="tel" name="telefono" placeholder="Teléfono">
+        <input type="text" name="empresa" placeholder="Empresa">
+    </div>
+
+    <input type="email" name="email" placeholder="E-mail">
+
+    <!-- Tipo de prenda -->
+    <div class="tipo-prenda">
+        <h2>Tipo de prenda</h2>
+
+        <div class="opciones-prenda">
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="gorro">
+                Gorro
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="pantalon">
+                Pantalón
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="polo">
+                Polo
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="blusa">
+                Blusa
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="medias">
+                Medias
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="accesorios">
+                Accesorios
+            </label>
+
+            <label>
+                <input type="checkbox" name="prenda[]" value="otros">
+                Otros: <input type="text" name="otros">
+            </label>
+
+        </div>
+    </div>
+
+    <!-- Detalla tu proyecto -->
+    <div class="proyecto">
+        <h2>Detalla tu proyecto</h2>
+
+        <textarea 
+            name="proyecto" 
+            placeholder="Cuéntanos los detalles de tu proyecto..."
+        ></textarea>
+    </div>
+
+    <div class="privacidad">
+        <input type="checkbox" name="privacidad" id="privacidad">
+
+        <label for="privacidad">
+            Acepto las políticas de privacidad
+        </label>
+    </div>
+
+    <button type="submit">ENVIAR</button>
+
+</form>
+
+    </div>
+
+</body>
+</html>
